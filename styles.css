@@ -1,6 +1,17 @@
 * {
 	background-color: #ECF8FE;
 }
+body {
+	position: relative;
+
+}
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 90;
+
+}
 	header a img {
 	color: #FA6980;
 	width: 35.54px;
@@ -213,27 +224,38 @@ header .profile {
 }
 
 .container-2 {
+	display: block;
+	vertical-align: middle;
+}
+.container-2 h2 {
+	display: block;
+	vertical-align: middle;
 	font-size: 24px;
 	color: #000000;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 60px;
+/*	margin-top: 60px;*/
 	margin-right: 1089px;
 	margin-bottom: 60px;
 	margin-left: 140px;
 	width: 1160px;
 	height: 977px;
-	display: inline-block;
-	vertical-align: middle;
 	
 }
 .container-2 .bridge {
-	margin-top: 60px;
+	margin-top: -1260px;
 	margin-right: 40px;
-	margin-bottom: 40px;
+	
+	margin-left: 140px;
+	display: block;
+	vertical-align: middle;
 }
 .container-2 .forest {
+	margin-top: 40px;
 	margin-bottom: 40px;
+	margin-left: 140px;
+	display: block;
+	vertical-align: middle;
 }
 .container-2 div {
 	display: inline-block;
@@ -244,9 +266,11 @@ header .profile {
 	vertical-align: middle;
 }
 .container-2 div.photo {
-
+	margin-top: 60px;
 	margin-right: 140px;
 	margin-bottom: 100px;
+	width: 360px;
+	height: 830px;
 	
 }
 footer {
@@ -259,3 +283,4 @@ footer img {
 	margin-bottom: 129.87px;
 	margin-left: 141.17px;
 }
+
