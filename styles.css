@@ -39,11 +39,13 @@ header .profile {
 	height: 30px;
 	border-radius: 50%;
 }
-section {
+.container {
 	display: inline-block;
 	vertical-align: middle;
+	
+	
 }
-section h2 {
+.container h2 {
 	width: 126px;
 	height: 19px;
 	margin: 30px 1174px 40px 140px; 
@@ -53,42 +55,95 @@ section h2 {
 	text-transform: uppercase;
 	
 }
-
-section div div {
+.container div ul {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+.container div ul li div {
+	display: inline-block;
+	vertical-align: middle;
+
 	width: 1160px;
 	height: 409px;
 	margin-top: 40px;
-	margin-left: 140px;
-	margin-right: 140px;
+	margin-left: 40px;
+	margin-right: 40px;
 	background-color: #FFFFFF;
 	border-radius: 6px;
 
 }
-section div div.box-1 {
+.container div ul li div.box-1 {
 	display: inline-block;
 	vertical-align: middle;
 	width: 360px;
 	height: 350px;
 	margin: 40px 40px 60px 140px;
-	position: absolute;
+	position: relative;
 }
-section div div.box-1 p.description {
+.container div ul li div.box-1 p.description {
 	color: #FA6980;
 	font-size: 16px;
 	font-weight: bold;
 	width: 114px;
 	height: 12px;
-	background-color: #FFFFFF;
+	
 	
 	top: 29px;
 	right: 209px;
 	bottom: 147px;
 	left: 37px;
+	position: absolute;
+	line-height: 21.79px;
 
 }
-section div div.box-1 p.text {
+.container.container div ul li div.box-1 p.text {
+	width: 280px;
+	height: 45px;
+	color: #A6ADB4;
+	font-size: 13px;
+/*	background-color: #FFFFFF;*/
+	margin: 24px 40px 40px 40px;
+}
+.container.container div ul li div.box-1 img.icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 11px;
+	magrin-botton: 40px;
+	margin-left: 40px;
+/*	background-color: #FFFFFF;*/
+}
+.container.container div ul li div.box-1 p {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	color: #A6ADB4;
+}
+.container.container div ul li div.box-2 {
+	display: inline-block;
+	vertical-align: middle;
+
+	width: 360px;
+	height: 350px;
+	position: relative;
+
+}
+.container.container div ul li div.box-2 p.description {
+	color: #wgite;
+	font-size: 16px;
+	font-weight: bold;
+	width: 114px;
+	height: 12px;
+	
+	
+	top: 29px;
+	right: 209px;
+	bottom: 147px;
+	left: 37px;
+	position: absolute;
+
+}
+.container.container div ul li div.box-2 p.text {
 	width: 280px;
 	height: 45px;
 	color: #A6ADB4;
@@ -96,7 +151,7 @@ section div div.box-1 p.text {
 	background-color: #FFFFFF;
 	margin: 24px 40px 40px 40px;
 }
-section div div.box-1 img.icon {
+.container div ul li div.box-2 img.icon {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 11px;
@@ -104,35 +159,39 @@ section div div.box-1 img.icon {
 	margin-left: 40px;
 	background-color: #FFFFFF;
 }
-section div div.box-1 p {
+.container div ul li div.box-2 p {
 	display: inline-block;
 	vertical-align: middle;
 	background-color: #FFFFFF;
 	color: #A6ADB4;
 }
-section div div.box-2 {
+.container div ul li div.box-3 {
 	display: inline-block;
 	vertical-align: middle;
 	width: 360px;
 	height: 350px;
-	position: absolute;
+	position: relative;
 
 }
-section div div.box-2 p.description {
+.container div ul li div.box-3 p.description {
 	color: #FA6980;
 	font-size: 16px;
 	font-weight: bold;
 	width: 114px;
 	height: 12px;
-	background-color: #FFFFFF;
+/*	background-color: #FFFFFF;*/
 	
 	top: 29px;
 	right: 209px;
 	bottom: 147px;
 	left: 37px;
+	position: absolute;
 
 }
-section div div.box-2 p.text {
+.container div ul li div img {
+	margin: auto;
+}
+.container div ul li div.box-3 p.text {
 	width: 280px;
 	height: 45px;
 	color: #A6ADB4;
@@ -140,7 +199,7 @@ section div div.box-2 p.text {
 	background-color: #FFFFFF;
 	margin: 24px 40px 40px 40px;
 }
-section div div.box-2 img.icon {
+.container div ul li div.box-3 img.icon {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 11px;
@@ -148,9 +207,43 @@ section div div.box-2 img.icon {
 	margin-left: 40px;
 	background-color: #FFFFFF;
 }
-section div div.box-2 p {
+.container div ul li div.box-3 p {
 	display: inline-block;
 	vertical-align: middle;
 	background-color: #FFFFFF;
 	color: #A6ADB4;
+}
+
+.container-2 {
+	font-size: 24px;
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-right: 1089px;
+	margin-bottom: 60px;
+	margin-left: 140px;
+	width: 1160px;
+	height: 977px;
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.container-2 .bridge {
+	margin-top: 60px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.container-2 .forest {
+	margin-bottom: 40px;
+}
+.container-2 div div {
+	display: inline-block;
+	vertical-align: middle;
+}
+.container-2 div.photo {
+
+	margin-right: 140px;
+	margin-bottom: 100px;
+	margin-left: 40px;
 }
