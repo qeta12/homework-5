@@ -1,0 +1,33 @@
+header a img {
+	color: #FA6980;
+	width: 35.54px;
+	height: 9.55px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 104.46px;
+}
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+
+
+}
+header nav li {
+	display: inline-block;
+	vertical-align: middle;
+	
+	font-size: 11px;
+	line-height: 14.98px;
+	
+}
+header nav li a {
+	margin-right: 27px;
+	color: #959798;
+	text-transform: uppercase;
+}
+header .profile {
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
