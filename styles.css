@@ -41,7 +41,7 @@ header .profile {
 }
 .container {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	
 	
 }
@@ -57,13 +57,12 @@ header .profile {
 }
 .container div ul {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 .container div ul li div {
 	display: inline-block;
-	vertical-align: middle;
-
+	vertical-align: top;
 	width: 1160px;
 	height: 409px;
 	margin-top: 40px;
@@ -75,7 +74,7 @@ header .profile {
 }
 .container div ul li div.box-1 {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 360px;
 	height: 350px;
 	margin: 40px 40px 60px 140px;
@@ -107,7 +106,7 @@ header .profile {
 }
 .container.container div ul li div.box-1 img.icon {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	margin-right: 11px;
 	magrin-botton: 40px;
 	margin-left: 40px;
@@ -115,14 +114,13 @@ header .profile {
 }
 .container.container div ul li div.box-1 p {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	background-color: #FFFFFF;
 	color: #A6ADB4;
 }
 .container.container div ul li div.box-2 {
 	display: inline-block;
-	vertical-align: middle;
-
+	vertical-align: top;
 	width: 360px;
 	height: 350px;
 	position: relative;
@@ -153,7 +151,7 @@ header .profile {
 }
 .container div ul li div.box-2 img.icon {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	margin-right: 11px;
 	magrin-botton: 40px;
 	margin-left: 40px;
@@ -161,13 +159,13 @@ header .profile {
 }
 .container div ul li div.box-2 p {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	background-color: #FFFFFF;
 	color: #A6ADB4;
 }
 .container div ul li div.box-3 {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 360px;
 	height: 350px;
 	position: relative;
@@ -201,7 +199,7 @@ header .profile {
 }
 .container div ul li div.box-3 img.icon {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	margin-right: 11px;
 	magrin-botton: 40px;
 	margin-left: 40px;
@@ -209,7 +207,7 @@ header .profile {
 }
 .container div ul li div.box-3 p {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	background-color: #FFFFFF;
 	color: #A6ADB4;
 }
@@ -237,6 +235,10 @@ header .profile {
 .container-2 .forest {
 	margin-bottom: 40px;
 }
+.container-2 div {
+	display: inline-block;
+	vertical-align: middle;
+}
 .container-2 div div {
 	display: inline-block;
 	vertical-align: middle;
@@ -245,5 +247,15 @@ header .profile {
 
 	margin-right: 140px;
 	margin-bottom: 100px;
-	margin-left: 40px;
+	
+}
+footer {
+	background-color: #A6ADB4;
+}
+footer img {
+	color: #FFFFFF;
+	margin-top: 60.57px;
+	margin-right: 1263.29px;
+	margin-bottom: 129.87px;
+	margin-left: 141.17px;
 }
