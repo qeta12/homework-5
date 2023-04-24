@@ -61,7 +61,7 @@ section div {
 	display: inline-block;
 	vertical-align: middle;
 }
-section div.photos li {
+section div.photos ul div li {
 	display: inline-block;
 	vertical-align: middle;
 	width: 360px;
@@ -69,5 +69,27 @@ section div.photos li {
 	margin-right: 40px;
 
 }
+.part {
+	display: inline-block;
+	vertical-align: middle;
+	width: 280px;
+	height: 45px;
+	padding: 24px 40px 40px 40px;
+	color: #A6ADB4;
+	font-size: 13px;
 
+}
+.part img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin: 37px 11px 40px 40px ;
+	
+}
+.part p.duration {
+	display: inline-block;
+	vertical-align: middle;
+
+}
 
