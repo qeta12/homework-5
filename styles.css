@@ -1,4 +1,7 @@
-header a img {
+* {
+	background-color: #ECF8FE;
+}
+	header a img {
 	color: #FA6980;
 	width: 35.54px;
 	height: 9.55px;
@@ -25,9 +28,46 @@ header nav li a {
 	color: #959798;
 	text-transform: uppercase;
 }
+header nav li a.active {
+	color: black;
+	font-weight: bold;
+
+}
 header .profile {
 	margin-top: 10px;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
 }
+section {
+	width: 1160px;
+	height: 409px;
+	margin-top: 30px;
+	margin: auto;
+	margin-left: 140px;
+}
+section h2 {
+
+	margin-bottom: 40px;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	width: 126px;
+	height: 19px;
+	line-height: 32.68px;
+}
+section div {
+	display: inline-block;
+	vertical-align: middle;
+}
+section div.photos li {
+	display: inline-block;
+	vertical-align: middle;
+	width: 360px;
+	height: 140px;
+	margin-right: 40px;
+
+}
+
+
