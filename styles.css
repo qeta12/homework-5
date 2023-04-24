@@ -61,13 +61,27 @@ section div {
 	display: inline-block;
 	vertical-align: middle;
 }
-section div.photos ul div li {
+section div.paragraph {
 	display: inline-block;
 	vertical-align: middle;
+	
+
+}
+.box-1 {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 6px;
 	width: 360px;
 	height: 140px;
 	margin-right: 40px;
 
+	
+}
+.description{
+	color: #FA6980;
+}
+.description-1 {
+	color: #FFFFFF;
 }
 .part {
 	display: inline-block;
@@ -84,7 +98,7 @@ section div.photos ul div li {
 	vertical-align: middle;
 	width: 16px;
 	height: 16px;
-	margin: 37px 11px 40px 40px ;
+	margin: 37px 11px 40px 40px;
 	
 }
 .part p.duration {
