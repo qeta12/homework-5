@@ -40,70 +40,117 @@ header .profile {
 	border-radius: 50%;
 }
 section {
-	width: 1160px;
-	height: 409px;
-	margin-top: 30px;
-	margin: auto;
-	margin-left: 140px;
+	display: inline-block;
+	vertical-align: middle;
 }
 section h2 {
-
-	margin-bottom: 40px;
-	color: #000000;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 24px;
 	width: 126px;
 	height: 19px;
-	line-height: 32.68px;
-}
-section div {
-	display: inline-block;
-	vertical-align: middle;
-}
-section div.paragraph {
-	display: inline-block;
-	vertical-align: middle;
+	margin: 30px 1174px 40px 140px; 
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
 	
-
 }
-.box-1 {
+
+section div div {
 	display: inline-block;
 	vertical-align: middle;
+	width: 1160px;
+	height: 409px;
+	margin-top: 40px;
+	margin-left: 140px;
+	margin-right: 140px;
+	background-color: #FFFFFF;
 	border-radius: 6px;
-	width: 360px;
-	height: 140px;
-	margin-right: 40px;
 
-	
 }
-.description{
-	color: #FA6980;
-}
-.description-1 {
-	color: #FFFFFF;
-}
-.part {
+section div div.box-1 {
 	display: inline-block;
 	vertical-align: middle;
+	width: 360px;
+	height: 350px;
+	margin: 40px 40px 60px 140px;
+	position: absolute;
+}
+section div div.box-1 p.description {
+	color: #FA6980;
+	font-size: 16px;
+	font-weight: bold;
+	width: 114px;
+	height: 12px;
+	background-color: #FFFFFF;
+	
+	top: 29px;
+	right: 209px;
+	bottom: 147px;
+	left: 37px;
+
+}
+section div div.box-1 p.text {
 	width: 280px;
 	height: 45px;
-	padding: 24px 40px 40px 40px;
 	color: #A6ADB4;
 	font-size: 13px;
-
+	background-color: #FFFFFF;
+	margin: 24px 40px 40px 40px;
 }
-.part img {
+section div div.box-1 img.icon {
 	display: inline-block;
 	vertical-align: middle;
-	width: 16px;
-	height: 16px;
-	margin: 37px 11px 40px 40px;
+	margin-right: 11px;
+	magrin-botton: 40px;
+	margin-left: 40px;
+	background-color: #FFFFFF;
+}
+section div div.box-1 p {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	color: #A6ADB4;
+}
+section div div.box-2 {
+	display: inline-block;
+	vertical-align: middle;
+	width: 360px;
+	height: 350px;
+	position: absolute;
+
+}
+section div div.box-2 p.description {
+	color: #FA6980;
+	font-size: 16px;
+	font-weight: bold;
+	width: 114px;
+	height: 12px;
+	background-color: #FFFFFF;
 	
+	top: 29px;
+	right: 209px;
+	bottom: 147px;
+	left: 37px;
+
 }
-.part p.duration {
+section div div.box-2 p.text {
+	width: 280px;
+	height: 45px;
+	color: #A6ADB4;
+	font-size: 13px;
+	background-color: #FFFFFF;
+	margin: 24px 40px 40px 40px;
+}
+section div div.box-2 img.icon {
 	display: inline-block;
 	vertical-align: middle;
-
+	margin-right: 11px;
+	magrin-botton: 40px;
+	margin-left: 40px;
+	background-color: #FFFFFF;
 }
-
+section div div.box-2 p {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	color: #A6ADB4;
+}
